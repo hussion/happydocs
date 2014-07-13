@@ -1,8 +1,19 @@
-协同编辑文档
-=========
+happydocs - 文档协同编辑
+========
 
-###使用方法：
-``` javascript
+###Usage：
+1. 
+```
 npm install
+``` 
+
+2. 
+```
+node app.js
+``` 
+
+3.
+```
+localhost:7878
 ```
 
