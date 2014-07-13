@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  .wrapper
+    header
+      h1
+      p.desc 简单快速实时的富文本协同编辑器
+    section#page-demo
+      textarea#txt-content(data-autosave='editor-content', autofocus='')
+        | <p>Simditor 是团队协作工具 <a href="http://tower.im">Tower</a> 使用的富文本编辑器。</p>
+        | <p>相比传统的编辑器它的特点是：</p>
+        | <ul>
+        | <li>功能精简，加载快速</li>
+        | <li>输出格式化的标准 HTML</li>
+        | <li>每一个功能都有非常优秀的使用体验</li>
+        | </ul>
+    footer
+      | ©
+      a(href='http://hussion.me') &nbsp;hussion
+    a#link-fork(href='https://github.com/Hussion/happydocs')
+      img(src='/images/fork.png', alt='Fork me on GitHub')
+
+  script(type='text/javascript', src='/javascripts/jquery.min.js')
+  script(type='text/javascript', src='/javascripts/app.js')
+  script(type='text/javascript', src='/javascripts/main.js')
