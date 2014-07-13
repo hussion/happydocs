@@ -1,0 +1,24 @@
+{
+  "name": "happydocs",
+  "version": "0.1.0",
+  "description": "happydocs",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.6.1",
+    "socket.io": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hussion/happydocs.git"
+  },
+  "keywords": [
+    "happy",
+    "docs"
+  ],
+  "author": "hussion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hussion/happydocs/issues"
+  },
+  "homepage": "https://github.com/Hussion/happydocs"
+}
