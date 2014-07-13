@@ -5,6 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.6.1",
+    "static-favicon": "*",
+    "morgan": "*",
+    "cookie-parser": "*",
+    "body-parser": "*",
+    "debug": "*",
+    "jade": "*",
     "socket.io": "*"
   },
   "repository": {
